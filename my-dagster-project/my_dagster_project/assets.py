@@ -1,4 +1,6 @@
 from dagster import asset
+import pandas as pd
+
 
 # Very simple asset that returns the number 42
 @asset
@@ -14,7 +16,6 @@ def more_complex_asset(_):
 # an asset that returns a pandas dataframe with a single column of customer data
 @asset
 def customer_data(_):
-    import pandas as pd
     return pd.DataFrame({
         "customer_id": [1, 2, 3],
         "name": ["Alice", "Bob", "Charlie"],
