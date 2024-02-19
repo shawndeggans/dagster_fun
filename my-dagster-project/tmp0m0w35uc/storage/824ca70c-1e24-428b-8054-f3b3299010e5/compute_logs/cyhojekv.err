@@ -1,0 +1,7 @@
+[32m2024-02-19 18:25:54 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - 85682 - LOGS_CAPTURED - Started capturing logs in process (pid: 85682).
+[32m2024-02-19 18:25:54 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - 85682 - more_complex_asset - STEP_START - Started execution of step "more_complex_asset".
+[32m2024-02-19 18:25:54 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - 85682 - more_complex_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2024-02-19 18:25:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - more_complex_asset - Writing file at: /workspaces/dagster_fun/my-dagster-project/tmp0m0w35uc/storage/more_complex_asset using PickledObjectFilesystemIOManager...
+[32m2024-02-19 18:25:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - 85682 - more_complex_asset - ASSET_MATERIALIZATION - Materialized value more_complex_asset.
+[32m2024-02-19 18:25:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - 85682 - more_complex_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2024-02-19 18:25:55 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 824ca70c-1e24-428b-8054-f3b3299010e5 - 85682 - more_complex_asset - STEP_SUCCESS - Finished execution of step "more_complex_asset" in 544ms.
